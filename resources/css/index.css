@@ -1,0 +1,582 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* desktop */
+
+/* making the 1st/2nd container (header) */
+
+/* 1st container (logo with COLMARACADEMY) */
+
+.mobile {
+
+    display: none;
+
+}
+
+.logo {
+
+    vertical-align: middle;
+    height: 50px;
+    width: auto;
+
+}
+
+header h1 {
+
+    font-weight: normal;
+    font-size: inherit;
+
+}
+
+.second_container {
+
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+
+}
+
+/* 2nd container (nav links) */
+
+li {
+
+    display: inline-block;
+    margin-right: 16px;    
+
+}
+
+nav a {
+
+    color: black;
+    text-decoration: none;
+
+}
+
+.first_container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header {
+
+    margin-left: 24px;
+    margin-right: 8px;
+    height: 64px;
+    font-size: 25px;
+
+}
+
+/* end of 1st and 2nd container/header */
+
+/* 3rd container (banner) with "learn something new everyday" */
+
+.third_container {
+
+    background-color: silver;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+}
+
+.third_container img {
+
+    width: 90%;
+    height: auto;
+    margin: 32px 24px;
+
+}
+
+.start, .start a {
+
+    color: white;
+    text-decoration: none;
+    border: 8px solid darkslategray;
+    background-color: darkslategray;
+    text-align: center;
+
+}
+
+h1 {
+
+    font-size: 60px;
+
+}
+
+h3 {
+
+    font-size: 40px;
+
+}
+
+.learn, .start {
+
+    margin: 30px;
+    position: relative;
+    right: 40px;
+
+}
+
+.learn {
+
+    color: darkslategray;
+
+}
+
+/* end of 3rd container (banner) with "learn something new everyday" */
+
+/* middle of the page (orientation date, campus) */
+
+.fourth_container img {
+
+    width: 94%;
+    height: auto;
+
+}
+
+.fourth_container {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-left: 24px;
+    float: left;
+
+}
+
+.practicing {
+
+    font-size: 50px;
+    margin-top: 21px;
+    margin-bottom: 13px;
+    color: darkslategray;
+
+}
+
+p {
+
+    font-size: 20px;
+    color: darkslategray;
+
+}
+
+aside {
+
+    font-size: 15px;
+    color: darkslategray;
+}
+
+/* end of container "keep practicing */
+
+/* now I'm setting up 2 containers in order to put the information on the right side */
+
+.side img {
+
+    width: 90%;
+    height: auto;
+    margin-top: 32px;
+
+}
+
+.side_container {
+
+    float: left;
+
+}
+
+.side {
+
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin-left: 40px;
+    
+}
+
+.side_two {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-left: 24px;
+    white-space: nowrap;
+
+}
+
+.side_two h3, .side_two h4, .side_two a {
+
+    margin: 8px;
+
+}
+
+.side_two h4 {
+
+    font-size: 20px;
+    color: darkslategray;
+
+}
+
+.side_two h3 {
+
+    color: darkslategray;
+
+}
+
+.read_more {
+
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+h3.side_three {
+
+    margin-top: 150px;
+
+}
+
+/* end of information on the right side */
+
+/* setting up 6 containers and one h1 inside a container (Start Learning) */
+
+.fifth_container {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: gainsboro;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+
+}
+
+.inside_container, .inside_container1 {
+
+    margin-right: 32px;
+    background-color: white;
+    width: auto%;
+    height: 470px;
+    margin-top: 100px;
+
+}
+
+.inside_container1 {
+
+    margin-left: 72px;
+
+}
+
+.inside_container2 {
+
+    margin-right: 72px;
+    width: auto;
+    height: 470px;
+    background-color: white;
+    margin-top: 100px;
+
+}
+
+.inside_container h3, .inside_container1 h3, .inside_container2 h3 {
+
+    margin-top: 16px;
+    margin-left: 16px;
+    color: darkslategray;
+
+}
+
+.inside_container h4, .inside_container1 h4, .inside_container2 h4 {
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    color: darkslategray;
+
+}
+
+.learning {
+
+    position: absolute;
+    margin-top: 32px;
+    color: darkslategray;
+
+}
+
+#more_margin {
+
+    margin-top: 140px;
+
+}
+
+#more_margin_bottom {
+
+    margin-bottom: 32px;
+
+}
+
+a {
+
+    text-decoration: none;
+    
+}
+
+/* end of the container with 6 containers and 1 h1 */
+
+/* Thesis exhibit (left side) */
+
+.thesis {
+
+    text-align: center;
+    color: darkslategray;
+    position: relative;
+    top: 100px;
+
+}
+
+video {
+
+    max-width: 1000px;
+    height: auto;
+    position: relative;
+    top: 100px;
+    margin-top: 32px;
+    margin-left: 24px;
+
+}
+
+.last_container {
+
+    position: relative;
+    top: 110px;
+    margin-left: 24px;
+    color: darkslategray;
+
+}
+
+.last_container p {
+
+    margin-top: 8px;
+
+}
+
+/* end of thesis (left side) */
+
+/* thesis (right side) */
+
+.left_side {
+
+    float: left;
+
+}
+
+.right_side {
+
+    float: left;
+    margin-top: 130px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right_side_container {
+
+    float: left;
+
+}
+
+.right_side img {
+
+    margin-top: 32px;
+    width: 90%;
+
+}
+.right_side2 {
+
+    margin-left: 16px;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.right_side2 h3 {
+
+    margin-bottom: 8px;
+    color: darkslategray;
+    margin-top: 220px;
+
+}
+
+#now {
+
+    margin-top: 180px;
+
+}
+
+/* end of thesis */
+
+.footer_2_container, .footer_2_container a {
+
+    color: darkslategray;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+.footer_container {
+
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;   
+    margin-top: 150px;
+    margin-bottom: 10px;
+  
+}
+
+.footer_container h4 {
+
+    font-weight: normal;
+    margin-left: 20px;
+
+}
+
+/* setting up web site for mobile */
+
+@media only screen and (max-width: 480px) {
+
+    .computer {
+
+        display: none;
+
+    }
+
+    .mobile {
+
+        display: inline-block;
+        margin-left: 1.25em;
+
+    }
+
+    .mobile img {
+
+        margin: 1em;
+
+    }
+
+    .third_container img {
+
+        width: 100%;
+        position: relative;
+        right: 1.5em;
+        bottom: 2.5em;
+
+    }
+
+    .third_container {
+
+        height: 31.25em;
+        flex-direction: column;
+
+    }
+
+    .start, .learn {
+
+        position: relative;
+        bottom: 3.93em; 
+        left: 2px;
+
+    }
+
+    .learn h3 {
+
+        margin-top: -2em;
+        margin-bottom: 3em;
+        
+    }
+
+    .learn h1 {
+
+        font-size: 1em;
+        margin-top: 2.5em;
+
+    }
+
+    .learn h3 {
+
+        font-size: .81em;
+
+    }
+
+    .fourth_container {
+
+        display: none;
+
+    }
+
+    figcaption {
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 2em;
+        line-height: 1.5em;
+
+    }
+
+    #read_more {
+
+        font-size: 1em;
+
+    }
+
+    h1 {
+
+        font-size: 1em;
+        color: darkslategray;
+
+    }
+
+    .first_container_mobile {
+
+        position: relative;
+        top: 1em;
+        left: 7em;
+    }
+
+    .container_mobile {
+
+        background-color: silver;
+        margin: .5em;
+        color: darkslategray;
+        border: 2px solid darkslategray;
+        border-radius: 4px;
+        position: relative;
+        right: 2.5em;
+        text-align: center;
+
+    }
+
+    .orientation {
+
+        width: 90%;
+
+    }
+
+    video {
+
+        width: 80%;
+        position: relative;
+        left: 1em;
+
+    }
+
+}
